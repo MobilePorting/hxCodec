@@ -475,7 +475,7 @@ class Video extends Bitmap
 	}
 
 	// Overrides
-	@:noCompletion private override function __enterFrame(elapsed:Int):Void
+	@:noCompletion private override function __enterFrame(elapsed:Float):Void
 	{
 		if (events.contains(true))
 			checkEvents();
